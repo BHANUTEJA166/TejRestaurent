@@ -1,0 +1,151 @@
+body { overflow-x: hidden; }
+
+.container-fluid2 {
+  background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.518) ,rgba(0, 0, 0, 0.527)), url(holidays.avif);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+.container-fluid2 h1{
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  color: white;
+
+}
+
+.container-fluid2 p{
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  padding: 5px;
+  text-align: center;
+}
+
+.container-fluid h1 {
+    text-align: center;
+    margin-top: 20px;
+   font-family: "Playfair Display", serif;
+  color: rgb(76, 74, 74);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container-fluid h4{
+  color: rgb(76, 74, 74);
+}
+
+.videobg{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.container-fluid3{
+  background-color: transparent;
+  color: white;
+  height: auto;
+  width: 100%;
+}
+
+.videobg video{
+    width: 100%;
+    height: 90vh;
+}
+
+header strong{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 30px;
+  font-style: normal;
+  color: black;
+}
+
+
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.container1 h1{
+   text-align: center;
+    margin-top: 20px;
+   font-family: "Playfair Display", serif;
+  color: black;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container-fluid8{
+        font-family: "Playfair Display", serif;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+    background-color: white;
+}
+
+.container-fluid8 h5{
+    font-size: 30px;
+    color: black;
+}
+
+.banner1,
+.banner2,
+.banner3,
+.banner4 {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+
+.banner1{
+    background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.518) ,rgba(0, 0, 0, 0.527)), url(hc1.avif);
+}
+.banner2{
+    background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.518) ,rgba(0, 0, 0, 0.527)), url(hc2.avif);
+}
+.banner3{
+    background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.518) ,rgba(0, 0, 0, 0.527)), url(hc3.avif);
+}
+.banner4{
+    background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.518) ,rgba(0, 0, 0, 0.527)), url(hc4.avif);
+}
+
+.carousel h1{
+    font-weight: 900;
+}
+
+.carousel p{
+    padding: 5px;
+}
+
+.carousel-item button{
+    width: 250px;
+}
+
+.container-fluid1 h1{
+      text-align: center;
+    margin-top: 20px;
+   font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+}

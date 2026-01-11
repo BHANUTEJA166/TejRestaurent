@@ -1,0 +1,143 @@
+body { overflow-x: hidden; }
+
+.container-fluid2 {
+  background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.518) ,rgba(0, 0, 0, 0.527)), url(ht2.avif);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+.container-fluid h1 {
+    text-align: center;
+    margin-top: 20px;
+   font-family: "Playfair Display", serif;
+  color: rgb(76, 74, 74);
+  font-weight: 500;
+  font-style: normal;
+}
+
+header strong{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 30px;
+  font-style: normal;
+  color: black;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.container1 h1{
+  text-align: start;
+    margin-top: 20px;
+   font-family: "Playfair Display", serif;
+  color: black;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container2 h1{
+  text-align: center;
+    margin-top: 20px;
+   font-family: "Playfair Display", serif;
+  color: black;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container2 p{
+  text-align: center;
+}
+
+.container1 img{
+  object-fit: cover;
+  width: 100%;
+  height: 80vh;
+   
+}
+
+.container3 img{
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container5 img{
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container3 h5{
+  text-align: center;
+}
+
+.container5 h5{
+  text-align: center;
+}
+
+
+.container-fluid2 h1{
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  color: white;
+
+}
+
+.container-fluid2 p{
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  padding: 5px;
+  text-align: center;
+}
+
+.container2 img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container4 h1{
+  font-weight: 700;
+    font-size: 50px;
+  font-family: "Playfair Display", serif;
+  color: black;
+
+}
+
+.container4{
+   background-color: rgb(204, 199, 199);
+    color: black;
+    width: 100%;
+}
+
+.container4 h1,h2,h4{
+    color: black;
+}
+
+
+
+.container4 a{
+    text-decoration: none;
+    color: black;
+}

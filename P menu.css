@@ -1,0 +1,135 @@
+body { overflow-x: hidden; }
+
+.container-fluid2 {
+  background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.518) ,rgba(0, 0, 0, 0.527)), url(menu.avif);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+.banner1 {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(8, 8, 8);
+}
+
+.banner1{
+    background-image: url(COLLAB.png);
+}
+
+.carousel h1{
+    font-weight: 900;
+    font-family: "Playfair Display", serif;
+}
+
+.carousel p{
+    padding: 5px;
+}
+
+.carousel-item button{
+    width: 250px;
+}
+
+
+.container-fluid2 h1{
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+   color: white;
+
+}
+
+.container-fluid2 p{
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  padding: 5px;
+  text-align: center;
+}
+
+.card {
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px rgb(198, 198, 198);
+    transition-duration: 1s;
+    height: 500px;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 10px rgb(52, 52, 52);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+header strong{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 30px;
+  font-style: normal;
+  color: black;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.Updates h1{
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  color: rgb(87, 86, 86);
+
+}
+
+.container5 h1{
+    font-weight: 500;
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+
+.container5 p{
+     font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.container6 h1{
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  color: rgb(87, 86, 86);
+}
+
+.container6 p{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Updates p{
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.container h2{
+   font-weight: 500;
+    font-family: "Playfair Display", serif;
+    color:  rgb(87, 86, 86);
+}
+
